@@ -1,0 +1,161 @@
+html{
+  background-color: #F3C8C8;
+}
+h1{
+  text-align: center;
+}
+
+.Backgroundcolor{
+  background-color: #F3C8C8;
+}
+
+body {
+  background: #F3C8C8;
+  size-adjust: flex;
+
+  }
+
+  .btn btn-primary{
+    size-adjust: auto;
+  }
+
+.logo{
+  background-color: #F3C8C8;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+
+.Botones{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    margin-top: 80px;
+    height: 80px;
+}
+
+
+@media screen and (max-width:1000px) 
+{
+  .Botones {
+    position: relative;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      grid-gap: 30px;
+      padding: 35px 0px;
+  }
+
+  .logo{
+    width: 50%;
+  }
+}
+
+.Boton1{
+    flex:1;
+    background: rgba(124, 245, 114, 0.36);
+    padding: 10px 20px; 
+    margin: 0 10px; 
+    height: max-content;    
+}
+.Boton2{
+    flex:1;
+    background: rgba(255, 152, 152, 0.61);
+    padding: 10px 20px; 
+    margin: 0 10px; 
+}
+.Boton3{
+    flex:1;
+    background: rgba(155, 179, 241, 0.56);
+    padding: 10px 20px; 
+    margin: 0 10px; 
+}
+.Boton4{
+    flex:1;
+    background: rgba(211, 155, 231, 0.46);
+    padding: 10px 20px; 
+    margin: 0 10px; 
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  
+  .contact-info {
+    display: inline-block;
+    align-content: right;
+  }
+
+  a{
+    text-decoration: dashed; color: black;
+    font-size: larger;
+    align-content: center;
+  }
+
+  figure, .Boton1{
+    background-image: url('Imagenes/Corazon.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 120px;
+  }
+  
+  figure, .Boton2{
+    background-image: url('Imagenes/triste.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 120px;
+  }
+
+  figure, .Boton3{
+    background-image: url('Imagenes/Salud.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 120px;
+  }
+
+  figure, .Boton4{
+      background-image: url('Imagenes/Mente.png');
+      background-repeat: no-repeat;
+      background-position: left center;
+      padding-left: 120px;
+    }
+
+.fondo{
+  display: flex;
+  flex-wrap: wrap;
+  padding:0%;
+  margin:0%;
+}
+
+.Formulario{
+  display: flex;
+  flex: column;
+  background-color: aquamarine;
+  width: 300px;
+  height: 200px;
+}
+
+.card text-end{
+  display: flex;
+  flex: column;
+  position: absolute;
+
+}
+  

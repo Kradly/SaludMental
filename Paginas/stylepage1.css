@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Smooch Sans', sans-serif;
+    /* background: #F3C8C8; */
+    }
+    body{
+      background-color: #f3c8c8;
+    }
+    a{
+      text-decoration: solid;
+      color:black;
+    }
+
+    .info{
+      background-color: black;
+    }
+    .block-logos img{
+      border-radius: 50%;
+    }
+
+    .header {
+        padding: 10px;
+      }
+      .black-logos{
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+      }
+
+      .main {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+      }
+      .articles {
+          width: 20vw;
+        display: flex;
+        flex-direction: column;
+        
+      }
+      .articles img {
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      .boton{
+        margin: 2px;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 5px;
+        padding: 10px;
+        min-width: 100px;
+                
+      }
+
+      .boton  p{
+        font: bold;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .boton:hover{
+        background-color: aquamarine;
+      }
+      .botontitulo{
+        width: 15rem;
+        background:  rgba(155, 179, 241, 0.56);
+
+      }
+      .boton_titulo{
+        margin: auto;
+        font-size: 2rem;
+
+      }
+      .nav{
+        display: flex;
+        justify-content:end;
+      }
+
+      .boton1{
+        background: rgba(124, 245, 114, 0.36);
+      }
+
+      .boton2{
+        background-color:  rgba(255, 152, 152, 0.61);
+        position: relative;
+        left: 20px;
+      }
+      .boton3{
+        background: rgba(211, 155, 231, 0.46);
+        position: relative;
+        left: 40px;
+      }
+      .description {
+      background: rgba(217, 217, 217, 0.6);
+      position: relative;
+      left: 80px;
+       margin: 10px;
+       padding: 20px;
+       width: 60vw;
+      }
+
+      .description p{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 2rem;
+        background: rgba(217, 217, 217, 0.6);
+
+      }
+
+      .description h1{
+        font-weight: bold;
+        font-size: 3rem;
+        background: rgba(217, 217, 217, 0.6);
+      }
+
+      footer
+      {
+        background-color: black;
+      }
+      .footer {
+        padding: 10px;
+        text-align: center;
+        color: aliceblue;
+      }
+      .footer__logos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .footer img{
+        size: 100%;
+      }
+
+      @media (max-width: 480px) {
+        section .background{
+          display: none;
+        }
+      
+
+        /*quita la posicion relativa a los botones para regresarlos a estaticos */ 
+        .boton1, .boton2,.boton3, .boton4{
+          position: static;
+          width: 90vw;
+          
+        }
+        .boton_titulo{
+          font-size: 1rem;
+        }
+        /*Ocultando la imagen
+        .articles img{
+          display: none;
+        }
+        */
+        /*Ocultando el texto del boton*/
+        .articles .boton_titulo{
+          display: none;
+        }
+        /*Centrando la imagen despues de quitar el texto*/
+        .boton{
+          justify-content: center;
+        }
+
+        .main{
+          /*manda la descripcion hacia abajo */ 
+          flex-direction: column;
+          justify-content: center;
+          font-size: 1rem;
+        }
+        .nav{
+          /*centra boton principal*/          
+          justify-content: center;
+        }
+
+   
+      }
